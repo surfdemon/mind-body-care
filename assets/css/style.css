@@ -19,11 +19,22 @@ h1, #h1 {
     font-style: normal;
 }
 
+hr { 
+    color: var(--light-text);
+}
+
 a {
     font-family: "Noto Serif Georgian", serif;
     font-weight: 400;
     font-style: normal;
 }
+
+p {
+    font-family: "Noto Serif Georgian", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 
 
 /* Nav Bar */ 
@@ -39,4 +50,25 @@ nav {
     font-family: "Playfair Display", serif;
     font-weight: 400;
     font-style: normal;
+}
+
+
+/* Jumbo Tron Area */
+#jumbotron-row { 
+    background-color: rgba(0,0,0, 0.75);
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    height: 100%;
+}
+
+#jumbotron-row p {
+    color: var(--light-text);
+}
+
+#self-help{
+    margin-top: 57px;
+    background: url('/assets/images/intro-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
