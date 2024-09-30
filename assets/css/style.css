@@ -99,6 +99,7 @@ nav {
 /* Benefits Area */
 .card {
     background-color: var(--light-background);
+    min-width: 235px;
 }
 
 .btn-primary {
