@@ -37,6 +37,7 @@
   Wirfeframes have been created with the Balsamiq Wireframes program.
 
   [Wireframes PDF](./assets/images/Mind-Body-Care-Wireframes.pdf)
+
   ![Desktop Wireframes](./assets/images/mind-body-care-desktop-wireframes.png)
   ![Tablet Wireframes](./assets/images/mind-body-care-tablet-wireframes.png)
   ![Mobile Wireframes](./assets/images/mind-body-care-mobile-wireframes.png)
@@ -64,7 +65,7 @@
 
   [Playfair Display](https://fonts.google.com/specimen/Playfair+Display)
   [Noto Serif Georgian](https://fonts.google.com/noto/specimen/Noto+Serif+Georgian?preview.text=Mind%20%26%20Body%20Care&query=georgia)
-  Both with Serif as the backup. 
+  
   
   #### Images 
   The images for the site have been selected from [Pexels.com](https://www.pexels.com/)
@@ -76,40 +77,63 @@
   I have not used any AI tools for the design of the website.
   
 ## Github 
-  ### Github Issues 
+### Github Issues 
   Github Issues has been used as part of the Agile process for logging user stories. 
+
   ![Github Issues - User Stories](./assets/images/mind-body-care-github-user-stories.png)
 
   Github Projects kanban board has been used as part of the Agile process for keeping track of the user stories and their progress through the development process. 
+
   ![Github Project](./assets/images/mind-body-care-github-project.png)
 
 ## Features Implementation 
 
-  ### Core Features (Must Haves)
+### Navigation 
+  The navidagion has been implemented using a Bootstrap navbar without an un-ordered list. It is fixed top so that it stays at the top of the screen as you scroll down the page.
 
-  ### Advanced Features (Should Haves)
+  ![Navbar and JumboTron Area](./assets/images/mind-body-care-nav-jumbotron.png)
 
-  ### Optional Features (Could Haves)
+  As it is a Bootstrap navbar it is responsive, with a hamburger menu on smaller screens. I altered it slightly so that when the responsive drop down menu was open the links are on the 
+  right hand side of the screen (same side as the menu button) rather than being on the opposit side of the screen as this seem to be an odd location form them. 
 
-  ### AI Tools 
+  ![Navbar Mobile view](./assets/images/mind-body-care-mobile-menu.png)
+
+
+### Core Features (Must Haves)
+    
+#### User Story 1 
+  To implement this there is a section that shows the time, date and location for each of the groups. 
+
+  ![Meetups Section](./assets/images/mind-body-care-meetups-area.png)
+
+#### User Story 2 & User Story 3
+  These two user stories have been combined when implementing as I fealt that the one area covered both user stories. 
+
+  ![Benefits Section](./assets/images/mind-body-care-benefits-area.png)
+
+### Advanced Features (Should Haves)
+
+### Optional Features (Could Haves)
+
+### AI Tools 
 
 ## Testing and Validation 
 
-  ### Testing Results 
+### Testing Results 
 
-  ### Validation 
+### Validation 
 
 ## Deployment 
 
-  ### Deployment Process
+### Deployment Process
 
-  ### AI Tools 
+### AI Tools 
 
 ## Reflection on Developments Process 
 
-  ### Sucessess
+### Sucessess
 
-  ### Challenges 
+### Challenges 
 
 ## Final Thoughts 
 
