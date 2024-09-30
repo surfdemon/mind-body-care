@@ -124,19 +124,31 @@
 ### Validation 
 
 ## Deployment 
+  The website has been deployed using Github pages and can be viewed at [Mind and Body Care Website](https://surfdemon.github.io/mind-body-care/)
 
 ### Deployment Process
+  To setup the delpoyment, once the repository has been cloned. Setup Github pages in the pages section of the repositories settings screen. 
+
+  ![Github Pages Settings](./assets/images/github-pages-settings.png)
+
+  Once that is setup, every time you push to the repositiory, Github will automatically deploy the website. 
 
 ### AI Tools 
+  No AI tool were directly used for the deployment apart from any that Github uses.
 
 ## Reflection on Developments Process 
 
-### Sucessess
+### Successess  
 
 ### Challenges 
 
 ## Final Thoughts 
 
 ## Code Attribution 
+  
+  * Bootstrap components such as the navbar and cards, the base code came from the Bootstrap website, based of their example code and then altered. 
+  * Google fonts css snippets taken from the Google fonts site and then altered. 
+
+
 
 ## Final Improvements
