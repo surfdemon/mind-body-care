@@ -75,6 +75,14 @@
   ### AI Tools 
   I have not used any AI tools for the design of the website.
   
+## Github 
+  ### Github Issues 
+  Github Issues has been used as part of the Agile process for logging user stories. 
+  ![Github Issues - User Stories](./assets/images/mind-body-care-github-user-stories.png)
+
+  Github Projects kanban board has been used as part of the Agile process for keeping track of the user stories and their progress through the development process. 
+  ![Github Project](./assets/images/mind-body-care-github-project.png)
+
 ## Features Implementation 
 
   ### Core Features (Must Haves)
