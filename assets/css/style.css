@@ -90,7 +90,7 @@ nav {
 
 #self-help{
     margin-top: 57px;
-    background: url('./assets/images/intro-background.jpg');
+    background: url('../images/intro-background.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -116,7 +116,7 @@ nav {
 
 /* Meetups Area */
 #mind-care-meetups {
-    background: url('./assets/images/mindfulness-meetups.jpg');
+    background: url('../images/mindfulness-meetups.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
