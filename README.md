@@ -37,10 +37,11 @@
   Wirfeframes have been created with the Balsamiq Wireframes program.
 
   [Wireframes PDF](./assets/images/Mind-Body-Care-Wireframes.pdf)
+  ![Desktop Wireframes](./assets/images/mind-body-care-desktop-wireframes.png)
+  ![Tablet Wireframes](./assets/images/mind-body-care-tablet-wireframes.png)
+  ![Mobile Wireframes](./assets/images/mind-body-care-mobile-wireframes.png)
 
   I have tried to design the website so that it looks clean and modern.
-
-
 
   #### Colours
   For the colours I've tried to pick ones that will suit the look and feel of the site and make it easy on the eye. I also went with blueish colours as I find blue to be a calming colour. 
@@ -70,7 +71,6 @@
 
   #### Icons 
   The icons for the site have been selected from [Font Awesome](https://fontawesome.com/)
-
 
   ### AI Tools 
   I have not used any AI tools for the design of the website.
