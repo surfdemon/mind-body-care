@@ -19,8 +19,30 @@ h1, #h1 {
     font-style: normal;
 }
 
+h2 {
+    text-align: center;
+    color: var(--dark-text);
+    font-size: 2.15rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h5 {
+    font-family: "Noto Serif Georgian", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 hr { 
+    width: 28vw;
     color: var(--light-text);
+}
+
+.hr-alt { 
+    color: var(--dark-background);
 }
 
 a {
@@ -35,7 +57,9 @@ p {
     font-style: normal;
 }
 
-
+.overlay {
+    background-color: rgba(0,0,0, 0.75);
+}
 
 /* Nav Bar */ 
 .navbar-nav a, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
@@ -51,7 +75,6 @@ nav {
     font-weight: 400;
     font-style: normal;
 }
-
 
 /* Jumbo Tron Area */
 #jumbotron-row { 
@@ -71,4 +94,34 @@ nav {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+/* Benefits Area */
+.card {
+    background-color: var(--light-background);
+}
+
+.btn-primary {
+    background-color: var(--mid-color);
+    color: var(--light-background);
+    font-family: "Noto Serif Georgian", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn-primary:hover { 
+    background-color: var(--dark-background);
+    color: var(--light-text);
+}
+
+/* Meetups Area */
+#mind-care-meetups {
+    background: url('/assets/images/mindfulness-meetups.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#mind-care-meetups h2 { 
+    color: var(--light-text);
 }
