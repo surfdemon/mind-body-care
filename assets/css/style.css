@@ -6,3 +6,37 @@
     --dark-text: #242424;
 }
 
+body{
+    color: var(--dark-text);
+    background-color: var(--light-background);
+}
+
+h1, #h1 {
+    font-size: 2.95rem;
+    color: var(--light-text);
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    font-family: "Noto Serif Georgian", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Nav Bar */ 
+.navbar-nav a, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--light-color);
+}
+
+nav { 
+    background-color: var(--mid-color);
+}
+
+.navbar-brand {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
