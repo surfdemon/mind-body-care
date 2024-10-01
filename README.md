@@ -149,13 +149,34 @@
 
   ![Social Area](./assets/images/mind-body-care-social-area.png)
 
-### AI Tools 
-
 ## Testing and Validation 
 
 ### Testing Results 
+  Colours have been tested with all the utilites mentioned in the colours section above and finally checked with WCAG Contrast Checker plugin. 
+
+  ![WCAG Contrast Checker](./assets/images/mind-body-care-WCAG-Contrast-Checker.png)
+
+  Performance, Accessibility, Best Practices, and SEO have been tested with [Google PageSpeed](https://pagespeed.web.dev/analysis/https-surfdemon-github-io-mind-body-care/xos9suzk5x?form_factor=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&hl=en-GB&utm_source=lh-chrome-ext)
+
+  Mobile PageSpeed Scores 
+
+  ![Mobile PageSpeed Results](./assets/images/mind-body-care-pagespeed-mobile.png)
+
+  Desktop PageSpeed Scores 
+
+  ![Desktop PageSpeed Results](./assets/images/mind-body-care-pagespeed-desktop.png)
+
+  There are performance issues on both desktop and mobile but these are outside the scope of this project.
 
 ### Validation 
+
+ HTML validation has been done with [Validator.w3.org](https://validator.w3.org/) and there are no errors or warnings.
+
+  ![HTML Validation](./assets/images/mind-body-care-html-validation.png)
+
+  CSS validation has been done with [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) and there are no errors or warnings.
+
+  ![CSS Validation](./assets/images/mind-body-care-css-validation.png)
 
 ## Deployment 
   The website has been deployed using Github pages and can be viewed at [Mind and Body Care Website](https://surfdemon.github.io/mind-body-care/)
@@ -182,7 +203,5 @@
   
   * Bootstrap components such as the navbar and cards, the base code came from the Bootstrap website, based of their example code and then altered. 
   * Google fonts css snippets taken from the Google fonts site and then altered. 
-
-
 
 ## Final Improvements
