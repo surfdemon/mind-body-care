@@ -194,14 +194,27 @@
 ## Reflection on Developments Process 
 
 ### Successess  
+  Overall I am happy with the design of the site and feel that it achieves what I set out to do. I tried to use Bootstrap classes ratehr than writing my own css and overall I think I managed to do a pretty good job at achieving that. 
 
 ### Challenges 
+  It was a fun challenge to use the Bootstrap classes as much as possible rather than my own. 
 
 ## Final Thoughts 
+  Overall this was a fun little project. I enjoyed going through the process of doing all the agile bits within Github and also creating the readme file. Doing the two of them along side creating each section of the site was a good way to keep track of what stage the project was at. 
 
 ## Code Attribution 
-  
+
   * Bootstrap components such as the navbar and cards, the base code came from the Bootstrap website, based of their example code and then altered. 
   * Google fonts css snippets taken from the Google fonts site and then altered. 
 
 ## Final Improvements
+  The only section that I'm not keen on is the footer section. 
+
+
+  There are some performance issues that have been highlighted by the Google PageSpeed tester that could be improved upon. Such as:
+  
+  * Webp versions of the images
+  * Different sizes of the images for different devices
+
+  The contact form currently sends the data to Code Institutes form dump. If the site was going to be used for real, this would need to be changed so that the data is sent somewhere useful. 
+ 
