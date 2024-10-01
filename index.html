@@ -28,7 +28,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav align-items-end">
-                    <a class="nav-link active px-3" aria-current="page" href="#">Home</a>
+                    <a class="nav-link px-3" href="#">Home</a>
                     <a class="nav-link px-3" href="#benefits">Benefits</a>
                     <a class="nav-link px-3" href="#mind-care-meetups">Meet Ups</a>
                 </div>
@@ -167,9 +167,47 @@
             </div>
         </section>
     </main>
-    <footer class="footer-area row">
-        Footer Section 
-       
+    <footer class="footer-area row py-5">
+        <div class="col-12 col-sm-6 mt-3 text-center">
+            <p class="social-text pb-3">Follow us on X for updates. Members can join our private Facebook group to keep in touch with other members and support outside of our meetups.</p>
+            <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook Icon linking to Facebook website in a new tab"><i class="fa-brands fa-facebook facebook-icon"></i></a>
+            <a href="https://x.com/" target="_blank" aria-label="X Icon linking to X website in a new tab"><i class="fa-brands fa-x-twitter facebook-icon"></i></a>
+        </div>
+        <div class="col-12 col-sm-6 my-5 text-center">
+            <p class="pb-3">Contact us if you have any questions.</p>
+            <button type="button" class="btn btn-primary contact-btn" data-bs-toggle="modal" data-bs-target="#myModal">
+                Contact Us
+              </button>
+            <div class="modal" id="myModal" tabindex="-1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Send us your feedback</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                              <label for="name" class="form-label">Name</label>
+                              <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="mb-3">
+                              <label for="emailAddress" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="floatingTextarea2">Comments</label>
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            </div>
+                            <button type="button" class="btn btn-secondary mx-3 px-3" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary px-3 mx-3 modal-btn">Submit</button>
+                          </form>
+                    </div>
+                  </div>
+                </div>
+              </div>     
+        </div>
     </footer>
 </body>
 </html>

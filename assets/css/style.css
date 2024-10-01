@@ -1,9 +1,10 @@
 :root { 
-    --light-background: #F5F5F5;
-    --mid-color: #229799;
+    --light-background: #fff;
+    --mid-color: #2f8283;
     --dark-background: #424242;
     --light-text: #48CFCB;
     --dark-text: #242424;
+
 }
 
 body{
@@ -63,7 +64,7 @@ p {
 
 /* Nav Bar */ 
 .navbar-nav a, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color: var(--light-color);
+    color: var(--light-background);
 }
 
 nav { 
@@ -74,6 +75,7 @@ nav {
     font-family: "Playfair Display", serif;
     font-weight: 400;
     font-style: normal;
+    color: var(--light-background);
 }
 
 /* Jumbo Tron Area */
@@ -127,4 +129,50 @@ nav {
     color: var(--light-text);
 }
 
+/* Footer */ 
+.footer-area { 
+    background-color: var(--mid-color);
+    color: var(--light-background);
+}
 
+.modal-btn { 
+    float: right; 
+}
+
+.social-text { 
+    text-align: justify;
+    width: 283px;
+    margin: 0 auto;
+}
+
+.facebook-icon { 
+    font-size: 52px;
+}
+
+.footer-area .btn-class { 
+}
+
+.contact-btn {
+    background-color: var(--dark-background);
+    color: var(--light-text);
+    border: none;
+}
+
+.contact-btn:hover{ 
+    color: var(--light-background);
+    border: 1px solid;
+    border-color: var(--dark-text);
+}
+
+footer a {
+    color: var(--dark-background);
+}
+
+footer a:hover { 
+    color: var(--light-background);
+}
+
+#myModal { 
+    color: var(--dark-background);
+    text-align: left;
+}
