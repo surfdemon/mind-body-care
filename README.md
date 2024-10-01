@@ -1,5 +1,7 @@
 # Mind & Body Care - Mindfulness Support Group in Cornwall 
 
+![Devices Screenshots](./assets/images/mind-body-care-screenshots.png)
+
 ## Purpose 
   Mental health mindfulness website for a local mindfulness group called Mind & Body Care.
 
