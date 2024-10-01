@@ -59,7 +59,7 @@
 
   These have been tested using the [Adobe Color Accessibility](https://color.adobe.com/create/color-accessibility) tool and there are no conflicts.
 
-  Update: Checking the colours on the WCAG Contrast Checker and using Google PageSpeed Insights, both said that the mid color and light background colors 
+  Update: Checking the colours on the WCAG Contrast Checker and using [Google PageSpeed Insights](https://pagespeed.web.dev/analysis/https-surfdemon-github-io-mind-body-care/r7xhoqe1p0?hl=en-GB&form_factor=mobile), both said that the mid color and light background colors 
   didn't have enough contrast. So the colours have now changed to the following.
     
   * Light Background = #fff;
@@ -77,8 +77,13 @@
   I have picked two fonts from Google fonts. 
 
   [Playfair Display](https://fonts.google.com/specimen/Playfair+Display)
+
+  ![Playfair Display Font Image](./assets/images/mind-body-care-playfair-display-font.png)
+
   [Noto Serif Georgian](https://fonts.google.com/noto/specimen/Noto+Serif+Georgian?preview.text=Mind%20%26%20Body%20Care&query=georgia)
   
+  ![Noto Serif Font Image](./assets/images/mind-body-care-noto-serif-font.png)
+
   
   #### Images 
   The images for the site have been selected from [Pexels.com](https://www.pexels.com/)
