@@ -83,13 +83,15 @@
   [Noto Serif Georgian](https://fonts.google.com/noto/specimen/Noto+Serif+Georgian?preview.text=Mind%20%26%20Body%20Care&query=georgia)
   
   ![Noto Serif Font Image](./assets/images/mind-body-care-noto-serif-font.png)
-
-  
+    
   #### Images 
   The images for the site have been selected from [Pexels.com](https://www.pexels.com/)
 
   #### Icons 
   The icons for the site have been selected from [Font Awesome](https://fontawesome.com/)
+
+  #### Favicon 
+  The favicon was created using [Favicon.io](https://favicon.io/favicon-generator/)
 
   ### AI Tools 
   I have not used any AI tools for the design of the website.
@@ -131,7 +133,21 @@
 
 ### Advanced Features (Should Haves)
 
+#### User Story 4 & User Story 5 
+  These two user stories have been combined when implementing as the same feature covers both of them. 
+
+  ![Contact us area](./assets/images/mind-body-care-contact-us-area.png)
+
+  ![Contact us form](./assets/images/mind-body-care-contact-us-modal.png)
+
+  The cantact form uses Bootstrap modal with Bootstrap form inside it, both altered to fit the site design and requirments.
+
 ### Optional Features (Could Haves)
+
+#### User Story 6 
+  This is essentially a private Facebook group for members. There is a section for this on the site with a link to Facebook. 
+
+  ![Social Area](./assets/images/mind-body-care-social-area.png)
 
 ### AI Tools 
 
