@@ -186,19 +186,19 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <form>
+                        <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
                             <div class="mb-3">
                               <label for="name" class="form-label">Name</label>
-                              <input type="text" class="form-control" id="name">
+                              <input type="text" class="form-control" name="name" id="name" required>
                             </div>
                             <div class="mb-3">
                               <label for="emailAddress" class="form-label">Email address</label>
-                              <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp">
+                              <input type="email" class="form-control" name="emailAddress" id="emailAddress" aria-describedby="emailHelp" required>
                               <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                             </div>
                             <div class="mb-3">
                                 <label for="floatingTextarea2">Comments</label>
-                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <textarea class="form-control" placeholder="Leave a comment here" name="comments" id="floatingTextarea2" style="height: 100px" required></textarea>
                             </div>
                             <button type="button" class="btn btn-secondary mx-3 px-3" data-bs-dismiss="modal">Close</button>
                             <button type="submit" class="btn btn-primary px-3 mx-3 modal-btn">Submit</button>
