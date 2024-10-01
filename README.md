@@ -57,8 +57,19 @@
 
   These have been tested using the [Adobe Color Accessibility](https://color.adobe.com/create/color-accessibility) tool and there are no conflicts.
 
-  ------ NOTE! ---- 
-  Check the colors with the WCAG Contrast Checker as well!
+  Update: Checking the colours on the WCAG Contrast Checker and using Google PageSpeed Insights, both said that the mid color and light background colors 
+  didn't have enough contrast. So the colours have now changed to the following.
+    
+  * Light Background = #fff;
+  * Mid Colour = #2f8283;
+  * Dark Background = #424242;
+  * Light Text = #48CFCB;
+  * Dark Text = #242424;
+
+  ![Colours](./assets/images/mind-body-care-safe-colours.png)
+
+  This new colour scheme passes Adobe Color blind safe test, WCAG Contrast Checker, and Google PageSpeed Insights Accessibility tests.
+
 
   #### Font 
   I have picked two fonts from Google fonts. 
