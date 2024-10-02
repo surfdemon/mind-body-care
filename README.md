@@ -168,6 +168,12 @@
 
   There are performance issues on both desktop and mobile but these are outside the scope of this project.
 
+  The site has been tested in Chrome, Safari, and Firefox on an iPad Mini, iPad Pro, Macbook Air and Mac Mini. 
+
+  There was a glitch noticed with the modal that holds the contact form. When clicking submit, the form data was sent to the CodeInstitute form dump url. However, the modal stayed open on the page. 
+
+  This was fixed by adding data-bs-dismiss="modal" to the submit button.
+
 ### Validation 
 
  HTML validation has been done with [Validator.w3.org](https://validator.w3.org/) and there are no errors or warnings.
